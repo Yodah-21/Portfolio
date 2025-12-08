@@ -1,4 +1,3 @@
-// src/data/projects.js
 import { ExternalLink, Github } from "lucide-react"
 
 export const projects = [
@@ -10,7 +9,7 @@ export const projects = [
     technologies: ["React", "Node.js"],
     liveUrl: "#",
     githubUrl: "#",
-    featured: true,
+    featured: false,
   },
   {
     title: "Church Community Platform",
@@ -20,7 +19,7 @@ export const projects = [
     technologies: ["Next.js", "JavaScript", "Tailwind CSS"],
     liveUrl: "#",
     githubUrl: "#",
-    featured: true,
+    featured: false,
   },
   {
     title: "Digital Voucher System",
@@ -30,14 +29,14 @@ export const projects = [
     technologies: ["React", "Firebase", "Material-UI"],
     liveUrl: "#",
     githubUrl: "#",
-    featured: false,
+    featured: true,
   },
   {
-    title: "Personal Finance Tracker",
+    title: "Smart Tobacco System",
     description:
-      "Mobile-first web app for tracking personal expenses, setting budgets, and visualizing spending patterns with interactive charts.",
+      "Mobile App for keeping track of the temperature and humidity levels in a tobacco barn during curing season.",
     image: "/assets/images/project4.png",
-    technologies: ["React Native", "Redux"],
+    technologies: ["Javascript", "React Native", "Supabase"],
     liveUrl: "#",
     githubUrl: "#",
     featured: false,
