@@ -1,11 +1,14 @@
 import { ExternalLink, Github } from "lucide-react"
+import proj1Img from "../assets/images/proj1.jpeg";
+import omniImg from "../assets/images/omni.png";
+
 
 export const projects = [
   {
     title: "Omni Contact Site",
     description:
       "A comprehensive contact management system with advanced filtering, search capabilities, and real-time synchronization. Built with modern web technologies for optimal performance.",
-    image: "/assets/images/project1.png",
+    image: omniImg,
     technologies: ["React", "Node.js"],
     liveUrl: "#",
     githubUrl: "#",
@@ -15,7 +18,7 @@ export const projects = [
     title: "Church Community Platform",
     description:
       "Full-featured website for church community management including event scheduling, member directory, donation processing, and live streaming integration.",
-    image: "/assets/images/project2.png",
+    image: proj1Img,
     technologies: ["Next.js", "JavaScript", "Tailwind CSS"],
     liveUrl: "#",
     githubUrl: "#",
